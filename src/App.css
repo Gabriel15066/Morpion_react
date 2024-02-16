@@ -1,9 +1,71 @@
 .square {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    color: orange;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(192, 162, 11), 0 0 5px rgb(187, 176, 10);
+    font-family: "Audiowide" ,sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    border-radius: 15px;
 }
 
 .square:hover {
-    background-color: aqua;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.status {
+    color: orange;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Audiowide" ,sans-serif;
+    font-style: italic;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-right-style: groove;
+    border-left-style: groove;
+    border-width: 10px 10px 10px 10px;
+    border-color: olive;
+    outline-style: solid;
+    outline-color: olivedrab;
+    outline-width: 10px;
+    border-radius: 20px;
+    font-variant: small-caps;
+    padding: 75px;
+    margin: 50px 0;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(192, 162, 11), 0 0 5px rgb(187, 176, 10);
+    box-shadow:  -5px 5px 2px 2px black;
+    background-color: black;
+}
+
+.nine_squares {
+    margin: 115px;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    border-right-style: ridge;
+    border-left-style: groove;
+    border-color: olive;
+    border-width: 20px;
+    border-radius: 20px;
+}
+
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+    background: rgba(0, 128, 0, 0.3);
+    background-repeat: repeat-x;
+    opacity: 0.5;
 }
 /* The element to apply the animation to */
+/*Explanation of the different parts:
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+*/
